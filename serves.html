@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>server</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!--===============================================================================================-->
+<link rel="icon" type="image/png" href="WhatsApp Image 2024-01-16 at 18.50.32.jpeg" />
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body style="background-color: black;">
+    <div class="container">
+
+		<i class="bi bi-box-arrow-left"></i>
+        <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">logout</button>
+
+    <center>
+        <h1 class="header">servers batataweet
+            <sup><img src=""></sup>
+        </h1>
+        <div id="output" style="text-align: left; margin-bottom:70px;"></div>
+    </center>
+        
+        </div>
+
+        <center>
+            <div class="input_div_message_page">
+            <label>Enviar</label>
+            <input type="text" id="msg" class="form-control" placeholder="msg">
+            <button onclick="send()" style="background-color: rgb(221, 92, 0); padding: 7px;font-size: 25px;">Enviar</button>
+            </div>
+        </center>
+
+        <script src="serves.js"></script>
+</body>
+</html>
